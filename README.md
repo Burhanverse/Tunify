@@ -9,6 +9,14 @@
 Creates an auto-updating Telegram post that shows what you are currently listening to on Spotify.  
 You can see how it looks [here](t.me/tunifyy/6)
 
+## Screenshots: desktop
+<p align="center">
+  <img src='src/docs/assets/Screenshots/Screenshot 2024-01-01 111757.png' width='700'>
+  <img src='src/docs/assets/Screenshots/Screenshot 2024-01-01 111852.png' width='700'>
+  <img src='src/docs/assets/Screenshots/Screenshot 2024-01-01 111949.png' width='700'>
+  <img src='src/docs/assets/Screenshots/Screenshot 2024-01-01 112417.png' width='700'>
+</p>
+
 ## Difficulty level
 
 -   If you had programming experience: 🟢 easy.
