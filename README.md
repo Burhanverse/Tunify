@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="T.me/tunifyy/6">
+    <img src="docs/assets/icon files/7A367C1F-5910-4435-8322-60578C814648.svg" height="256">
+  </a>
+  <a href="t.me/tunifyy/6">
+    <h1 align="center">Tunify</h1>
+  </a>
+</p>
+
 # Tunify
 
 Creates an auto-updating Telegram post that shows what you are currently listening to on Spotify.  
