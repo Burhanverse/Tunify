@@ -28,7 +28,7 @@ Before you start, I recommend that you read the instructions in full and proceed
 ## Installation and local launch
 
 1. Download and install [Node.js](https://nodejs.org/en/download/).
-2. [Download project files](https://github.com/runixe786/Tunify/archive/main.zip) and unzip it (prefer doing it on desktop). It is better that the path contains only Latin characters without spaces.
+2. [Download project files](https://github.com/runixe786/Tunify/archive/main.zip) and unzip it. It is better that the path contains only Latin characters without spaces.
 3. Launch the terminal from the root directory of the unzipped folder and run `npm i`. Wait for the installation of dependencies to complete (3-10 minutes depending on the speed of the Internet).
 4. After its done, close the terminal, re-launch it in same directory and run `node src/init`. The script will ask you to insert a channel or chat ID. Without closing the console, go to the next step.
 5. There are many different ways to find out the channel or chat ID. I will describe the simplest one: Add the bot [@myidbot](https://t.me/myidbot) to your chat or channel → send the command `/getgroupid@myidbot` → copy your Id (along with a minus, if any) → paste it to the open console and press Enter.
