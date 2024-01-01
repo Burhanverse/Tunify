@@ -43,10 +43,7 @@ const msToTime = (ms = 0) => {
 
 const getCaption = ({name, artists, progress, duration, showProgress, liked, isPaused}) =>
 	[
-		isPaused ? "⏸" : "🎵",
-		`*${name}* — ${artists}`,
-		liked && "❤️",
-		showProgress && !isPaused && `\\[${progress}/${duration}]`,
+		`✨ | 𝐖𝐡𝐚𝐭 𝐈'𝐦 𝐥𝐢𝐬𝐭𝐞𝐧𝐢𝐧𝐠 𝐨𝐧 𝐒𝐩𝐨𝐭𝐢𝐟𝐲?\n\n♪ ıllıllı - "${name}"\n𝐛𝐲 "${artists}"\n\n⌛️ 𝐏𝐫𝐨𝐠𝐫𝐞𝐬𝐬: ${progress} / ${duration}\n🎵 𝐒𝐭𝐚𝐭𝐮𝐬: ${isPaused ? "paused ⏸️" : "listening ▶"}\n\nミ Project made by @MaybeSahil , OG credits: @filteredinternet `,
 	]
 		.filter(item => typeof item === "string" && item.length > 0)
 		.join(" ")
@@ -65,7 +62,7 @@ const getReplyMarkup = ({/*url, */ id}) => ({
 				url: `https://song.link/s/${id}`,
 			},*/
 			{
-				text: "Слушать",
+				text: "Listen it",
 				url: `https://song.link/s/${id}`,
 			},
 		],
