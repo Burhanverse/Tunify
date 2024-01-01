@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="T.me/tunifyy/6">
-    <img src="docs/assets/icon files/IMG_6575.png" height="256">
+  <img src="docs/assets/icon files/IMG_6575.png" height="256">
   </a>
   <a href="t.me/tunifyy/6">
     <h1 align="center">Tunify</h1>
