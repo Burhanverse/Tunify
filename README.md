@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/docs/assets/icon files/IMG_6578.PNG" height="256">
+  <img src="src/docs/assets/icon files/32DA7938-3061-41E7-8AA4-C1329AA8E582.svg" height="256">
   </a>
   <a href="t.me/tunifyy/6">
     <h1 align="center">Tunify</h1>
