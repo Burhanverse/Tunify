@@ -50,24 +50,32 @@ const getCaption = ({name, artists, progress, duration, showProgress, liked, isP
 
 const getSongLog = ({name, artists}) => `${name} — ${artists}`
 
-const getReplyMarkup = ({/*url, */ id}) => ({
-	inline_keyboard: [
-		[
-			/*{
-				text: "Spotify",
-				url: url,
-			},
-			{
-				text: "Другие сервисы",
-				url: `https://song.link/s/${id}`,
-			},*/
-			{
-				text: "Listen it",
-				url: `https://song.link/s/${id}`,
-			},
-		],
-	],
-})
+const getReplyMarkup = ({/*url, */ id, artists}) => {
+  const artist = artists.split(",")[0];
+  return {
+    inline_keyboard: [
+      [
+        /*{
+          text: "Spotify",
+          url: url,
+        },
+        {
+          text: "Other Services",
+          url: `https://song.link/s/${id}`,
+        },*/
+        {
+          text: "Listen it",
+          url: `https://song.link/s/${id}`,
+        },
+        {
+          text: `more by ${artist}`,
+          url: `https://open.spotify.com/search/${artist}`,
+        },
+      ],
+    ],
+  };
+};
+;
 
 const log = {
 	red: (...args) => {
