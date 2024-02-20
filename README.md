@@ -7,7 +7,7 @@
 </p>
 
 Creates an auto-updating Telegram post that shows what you are currently listening to on Spotify.  
-You can see how it looks [here](https://t.me/tunifyy/6)
+You can see how it looks [here](https://t.me/tunifyy/82)
 
 ## Screenshots: desktop & Mobile
 <p align="center">
